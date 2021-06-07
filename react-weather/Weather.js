@@ -8,7 +8,7 @@ const weatherOptions = {
     Thunderstorm: {
         iconName: "weather-lightning",
         gradient: ["#373B44", "#4286f4"],
-        title: "Thunderstorm in the house",
+        title: "Thunderstorm",
         subtitle: "Never go outside"
     },
     Drizzle: {
@@ -20,23 +20,24 @@ const weatherOptions = {
     Rain: {
         iconName: "weather-rainy",
         gradient: ["#00C6FB", "#005BEA"],
-        title: "Raining like a MF",
+        title: "Raining",
         subtitle: "I want to drink makgeolli"
     },
     Snow: {
         iconName: "weather-snowy",
         gradient: ["#7DE2FC", "#B9B6E5"],
-        title: "Cold as balls",
+        title: "Snow",
         subtitle: "Reminds me of nightmares from my military days."
     },
     Atmosphere: {
         iconName: "weather-hail",
-        gradient: ["#89F7FE", "#66A6FF"]
+        gradient: ["#89F7FE", "#66A6FF"],
+        title: "Atmosphere",
     },
     Clear: {
         iconName: "weather-sunny",
         gradient: ["#FF7300", "#FEF253"],
-        title: "Sunny as fuck",
+        title: "Sunny",
         subtitle: "Good weather for a walk"
     },
     Clouds: {
@@ -48,7 +49,7 @@ const weatherOptions = {
     Mist: {
         iconName: "weather-hail",
         gradient: ["#4DA0B0", "#D39D38"],
-        title: "Mist!",
+        title: "Mist",
         subtitle: "Subtly cloudy weather"
     },
     Dust: {
