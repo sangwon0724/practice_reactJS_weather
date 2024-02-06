@@ -12,6 +12,8 @@ export default class extends React.Component {
     isLoading: true
   };
   getWeather = async (latitude, longitude) => {
+    console.log("excute getWeather");
+
     const { data: {
       main: { temp },
       weather
@@ -26,8 +28,9 @@ export default class extends React.Component {
     });
   };
   getLocation = async () => {
+    console.log("excute getLocation");
     try {
-      await Location.requestPermissionsAsync();
+      await Location.requestBackgroundPermissionsAsync();
       const {
         coords: { latitude, longitude }
       } = await Location.getCurrentPositionAsync();
